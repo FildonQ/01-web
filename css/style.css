@@ -52,5 +52,41 @@ ul {
 }
 
 .hledani {
-    background-image: url(../images/cat-4282123_1920.pngd);
+    background-image: url(../images/banner.png);
+    width: auto;
+    display: flex;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+}
+
+.text_hledani {
+    background-color: rgba(232,119,116,0.75);
+    height: 105px;
+    display: flex;
+    width: 370px;
+    text-align: center;
+}
+
+.text_hledani h1 {
+    padding: 0.75rem;
+    font-family: 'Yeseva One';
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 35px;
+}
+
+.prohlidka h2 {
+    color: #E87774;
+    font-family: 'Yeseva One';
+    font-weight: 400;  
+    font-size: 30px; 
+    text-align: center;
+}
+
+.prohlidka {
+    display: flex;
+    flex-direction: column;
 }
